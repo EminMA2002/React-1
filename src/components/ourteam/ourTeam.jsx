@@ -1,15 +1,12 @@
-import "../ourteam/ourTeam.css"
-
-function ourTeam(){
- return  <div className="ourTeamdiv">
-    <div className="ourTeamTitle">Our Team</div>
-    <div className="cardsdiv">
-        <ourTeamCards/>
-        <ourTeamCards/>
-        <ourTeamCards/>
-        <ourTeamCards/>
+import "./OurTeam.css";
+import OurTeamCards from "./ourTeamCards/ourTeamCards";
+function OurTeam() {
+  return (
+    <div className="ourTeamdiv">
+      <div className="ourTeamTitle">Our Team</div>
+      <OurTeamCards />
     </div>
- </div> 
+  );
 }
 
-export default ourTeam;
+export default OurTeam;
