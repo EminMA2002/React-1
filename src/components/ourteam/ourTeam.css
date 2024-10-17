@@ -1,0 +1,17 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ourTeamdiv{
+    width: 100%;
+    height: 80vh;
+    background-color: #00204A;
+}
+
+.ourTeamTitle{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
